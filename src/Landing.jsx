@@ -13,7 +13,7 @@ import Aquario from "./assets/aquarius.png"
 import Peices from "./assets/pisces.png"
 function Landing() {
   return (
-    <div className="bg-[url('assets/bg.png')] bg-cover h-[150vh] w-[99vw] bg-no-repeat text-center" >
+    <div className="bg-[url('assets/fundo.jpg')] bg-cover h-[150vh] w-[99vw] bg-no-repeat text-center" >
         <div className="font-bold text-4xl py-2">TESTE DOS SIGNOS!</div>
         <div className=" text-2xl mt-2">Descubra o atalho para seguir e ter um futuro abundante no <span className="font-bold bg-[#ffff45]">Amor,</span></div>
         <div><span className="font-bold bg-[#ffff45] text-2xl">Saúde, Sorte, Finanças e muito mais!</span></div>
