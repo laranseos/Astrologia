@@ -6,11 +6,10 @@ import Footer from "./assets/footer.png"
 
 function Chat() {
   useEffect(() => {
-    const element = document.querySelector('.lite-badge');
-    if (element) {
-      element.style.visibility = 'hidden';
-      element.style.setProperty('visibility', 'hidden', '!important');
-    }
+    const element = document.getElementById('lite-badge');
+    
+    console.log('ddddddddd', element);
+    
   }, []);
   return (
     <div className=' text-center h-screen w-screen'>
@@ -32,7 +31,7 @@ function Chat() {
           typebot="astrologia-9azb8xn"
           className="w-full h-[95%]"
         />
-        <img src={Footer} alt='footer' className=" absolute w-full h-[6%] bottom-0 z-50"/> 
+        <img src={Footer} alt='footer' className=" absolute w-full h-[50px] bottom-0 z-50"/> 
 
         
     </div>
