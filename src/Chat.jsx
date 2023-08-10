@@ -1,8 +1,17 @@
 import React from "react";
 import Avatar from "./assets/hostAvatar.png"
+import { useEffect } from "react";
 import { Standard } from "@typebot.io/react";
-import Bg from "./assets/bg.png"
+import Footer from "./assets/footer.png"
+
 function Chat() {
+  useEffect(() => {
+    const element = document.querySelector('.lite-badge');
+    if (element) {
+      element.style.visibility = 'hidden';
+      element.style.setProperty('visibility', 'hidden', '!important');
+    }
+  }, []);
   return (
     <div className=' text-center h-screen w-screen'>
         <div className="w-screen h-[5%] flex bg-emerald-800 items-center">
@@ -23,7 +32,8 @@ function Chat() {
           typebot="astrologia-9azb8xn"
           className="w-full h-[95%]"
         />
-        {/* <img src={Bg} alt='bg' className="w-full h-[100%] bg-auto"/> */}
+        <img src={Footer} alt='footer' className=" absolute w-full h-[6%] bottom-0 z-50"/> 
+
         
     </div>
   );
