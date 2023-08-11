@@ -1,18 +1,9 @@
 import React from "react";
 import Avatar from "./assets/hostAvatar.png"
-import { useEffect } from "react";
 import { Standard } from "@typebot.io/react";
-import Footer from "./assets/footer.png"
 
 function Chat() {
-  useEffect(() => {
-    const elements = document.getElementsByClassName('object-cover');
-    console.log("ele",elements);
-    for (let i = 0; i < elements.length; i++) {
-      elements[i].style.visibility = 'hidden';
-    }
-    
-  }, []);
+
   return (
     <div className=' text-center h-screen w-screen'>
         <div className="w-screen h-[5%] flex bg-emerald-800 items-center">
