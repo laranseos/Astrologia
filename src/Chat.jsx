@@ -33,8 +33,6 @@ function Chat() {
           typebot="astrologia-9azb8xn"
           className="w-full h-[95%]"
         />
-        {/* <img src={Footer} alt='footer' className=" absolute w-full h-[50px] bottom-0 z-50 md:h-[50px] sm:bottom-0 sm:h-[50px] md:bottom-0 md:z-50 sm:z-50"/>  */}
-        
     </div>
   );
 }
